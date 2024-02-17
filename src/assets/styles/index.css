@@ -1,0 +1,18 @@
+:root {
+  font-family: 'Roboto', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-layout {
+  width: 100%;
+  height: 100vh;
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+  background: #a7a7a7;
+}

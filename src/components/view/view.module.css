@@ -1,0 +1,47 @@
+.wrapper {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  .header {
+    display: flex;
+    justify-content: flex-end;
+
+    .button {
+      padding: 10px;
+      border-radius: 10px;
+    }
+
+    .active {
+      background: #c0a50e;
+    }
+  }
+
+  .content {
+    flex: 1;
+    background: #cbcbcb;
+
+    .preview {
+      width: 100%;
+      height: 100%;
+    }
+
+    .empty {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 28px;
+      color: #a7a7a7;
+    }
+  }
+}
+
+.camera {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  border-radius: 50%;
+  z-index: 100000;
+}

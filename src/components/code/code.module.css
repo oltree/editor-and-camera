@@ -1,0 +1,28 @@
+.wrapper {
+  width: 40%;
+  padding-right: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-right: 2px solid #333;
+
+  .buttons {
+    display: flex;
+    gap: 10px;
+
+    .button {
+      flex: 1 1 auto;
+      padding: 10px;
+      border-radius: 10px;
+    }
+
+    .active {
+      background: #c0a50e;
+    }
+  }
+
+  .editor {
+    flex: 1;
+    background: #cbcbcb;
+  }
+}
